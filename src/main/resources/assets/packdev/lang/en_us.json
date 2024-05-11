@@ -1,0 +1,12 @@
+{
+  "item_group.packdev.name": "Packdev",
+  "item.packdev.flight_serum": "Flight Serum",
+  "serum.packdev.flight_serum": "Flight",
+  "serum.packdev.flight_serum.tooltip": "Grants 30 minutes of stacking creative flight",
+  "item.packdev.soulsnare_serum": "Soul Snare Serum",
+  "serum.packdev.soulsnare_serum": "Soul Snare",
+  "serum.packdev.soulsnare_serum.tooltip": "Inflicts Soul Snare on a mob that will then drop Demonic Will",
+  "item.packdev.generic_serum": "Generic Serum",
+  "serum.packdev.generic_serum": "Generic",
+  "serum.packdev.generic_serum.tooltip": "May or may not contain an unknown potion effect"
+}

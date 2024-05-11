@@ -1,0 +1,44 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''
+${mod_description}
+Credits:
+Biomancy for the Serum injector and serum textures
+Blood magic for soulsnare and flight potion effects and colors
+'''
+#logoFile = ""
+
+[[dependencies."${mod_id}"]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "biomancy"
+mandatory = true
+versionRange = "[2.4.4.0,)" # TODO: bemore restrictive
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "bloodmagic"
+mandatory = true
+versionRange = "[1.20.1-3.3.3-45,)" # TODO: bemore restrictive
+ordering = "BEFORE"
+side = "BOTH"
